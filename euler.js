@@ -15,9 +15,7 @@ var map = fct.reduce(function (prev, cur) {
 }, {});
     return map
 } 
-function phi(obj) {
-    
-}
+
 /*
 if (fct.length == 0) {
                 fct.push({pr:b,count:1});
@@ -49,5 +47,6 @@ function phi(n) {
   }
   return result;
 }
-//console.log(phi(1764))
-console.log(gcd(8, 12));
+//console.log(phi(1147))
+//console.log(gcd(329, 1080));
+module.exports={phi,gcd}
